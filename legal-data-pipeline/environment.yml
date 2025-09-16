@@ -1,0 +1,20 @@
+name: legal-data-pipeline
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - pandas
+  - requests
+  - pydantic
+  - python-dotenv
+  - tqdm
+  - sqlalchemy
+  - snakemake
+  - spacy
+  - scikit-learn
+  - pip
+  - pip:
+      - sqlite-utils
+      - black
+      - flake8
+      - pytest
+      - pytest-cov

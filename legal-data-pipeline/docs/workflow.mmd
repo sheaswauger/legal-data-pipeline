@@ -1,0 +1,7 @@
+flowchart TD
+    A[Fetch from APIs (OpenStates/LegiScan)] --> B[Raw JSON (.jsonl)]
+    B --> C[Normalize to tabular (Parquet/CSV)]
+    C --> D[Cleaning & de-duplication]
+    D --> E[Metadata tagging (jurisdiction, themes)]
+    E --> F[Corpus export for NLP]
+    F --> G[Analysis notebooks (topic modeling, classification)]

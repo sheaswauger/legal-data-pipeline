@@ -1,0 +1,16 @@
+pandas>=2.0
+python-dotenv>=1.0
+requests>=2.31
+tqdm>=4.66
+pydantic>=2.6
+sqlalchemy>=2.0
+sqlite-utils>=3.36
+snakemake>=8.0
+spacy>=3.7
+scikit-learn>=1.4
+pyyaml>=6.0
+mermaid-js>=10.9; python_version>='0' # placeholder to signal diagramming; not a python package, keep as comment
+black>=24.1
+flake8>=7.0
+pytest>=8.0
+pytest-cov>=5.0
